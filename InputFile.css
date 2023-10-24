@@ -1,0 +1,61 @@
+.file-input-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.file-input-label {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+}
+
+.imgIcon {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.file-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    opacity: 0.6;
+}
+
+.file-input {
+    display: none;
+}
+
+.selected-file {
+    display: block;
+    margin-top: 10px;
+}
+
+.save-btn {
+    width: 88px;
+    border: none;
+    background-color: rgb(15, 69, 203);
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+}
+  
+.save-btn i {
+    font-size: 24px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.horizontal_center{
+    margin-top: 7%;
+    border-top: 3px solid black;
+    width : 100%;
+}
